@@ -1,0 +1,23 @@
+.container-fluid{
+    background-color: #161e43;
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(170, 39, 221);
+}
+.container-fluid a{
+    color: #edf1f8;
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+
+button:hover{
+    color: beige;
+    background-image: linear-gradient(-45deg, rgb(180, 44, 243), rgb(198, 40, 246),rgb(236, 40, 246),rgb(245, 39, 248));
+}
+.navbar-brand {
+    text-decoration: none;
+    /* color: black; Optionally set the color to ensure visibility */
+  }

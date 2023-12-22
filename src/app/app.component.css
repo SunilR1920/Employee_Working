@@ -1,0 +1,60 @@
+.bg{
+    /* background-image: linear-gradient(rgb(7, 86, 189), rgb(240, 246, 255)); */
+    background: url(../assets/abstract-1278021_640.jpg), url(../assets/galaxyimg.jpg),transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+}
+
+.heading{
+    color: #e9eff3;
+    text-align: center;
+    margin: 10vh 20px 20px ;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 5px #37454d;
+}
+
+.heading span {
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+
+.card{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px ;
+    padding: 15px;
+    background: transparent;
+    border: none;
+    /* border: 1px solid rgb(170, 39, 221); */
+
+}
+
+
+button{
+    color: beige;
+    background-image: linear-gradient(-45deg, rgb(180, 44, 243), rgb(198, 40, 246),rgb(236, 40, 246),rgb(245, 39, 248));
+    font-size: 1.3rem;
+}
+
+button:active,
+button:hover{
+    color: beige;
+    box-sizing: border-box;
+    background-image: linear-gradient(-45deg, rgb(180, 31, 249), rgb(184, 34, 229));
+    box-shadow: 5px solid rgb(214, 179, 249);
+}
+
+.dropdown-menu{
+    background-color: #82b2f1;  
+}
+
+.dropdown-item{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+

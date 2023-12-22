@@ -1,0 +1,17 @@
+.row{
+    border: 1px solid rgb(181, 60, 181);
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px linear-gradient(to bottom right, rgb(153, 0, 255), rgb(255, 0, 191));
+    /* margin: 15px 0px; */
+    padding: 15px 0px;
+}
+
+h3{
+    font-size: 1.6rem;
+    color: #dbeafc;
+    text-shadow: 2px 2px 5px #37454d;
+}
+
+h3 span{
+    font-style: italic;
+}

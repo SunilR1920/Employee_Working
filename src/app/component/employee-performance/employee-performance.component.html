@@ -1,0 +1,59 @@
+
+
+<div data-aos="zoom-out" data-aos-delay="2200" class="EmpCard">
+    <!-- <h3 *For="let employeeName of eName">Employee Name:{{employeeName}}</h3>  -->
+    <div>
+        <div>
+            <table mat-table [dataSource]="dataSource" >
+        
+                <!--- Note that these columns can be defined in any order.
+                      The actual rendered columns are set as a property on the row definition" -->
+              
+                <!-- TaskNo Column -->
+                <ng-container matColumnDef="taskId">
+                  <div class="border">
+                    <th mat-header-cell *matHeaderCellDef> TaskNo. </th>
+                  </div>
+                  <div class="border">
+                    <td mat-cell *matCellDef="let TasksDetail"> {{TasksDetail.taskId}} </td>
+                  </div>
+                </ng-container>
+              
+                <!-- Task Column -->
+                <ng-container matColumnDef="taskDisc">
+                  <th mat-header-cell *matHeaderCellDef> Task </th>
+                  <td mat-cell *matCellDef="let TasksDetail"> {{TasksDetail.taskDisc}} </td>
+                </ng-container>
+              
+                <!-- Status Column -->
+                <ng-container matColumnDef="taskStatus">
+                  <th mat-header-cell *matHeaderCellDef> Status </th>
+                  <td mat-cell *matCellDef="let TasksDetail"> {{TasksDetail.taskStatus}} </td>
+                </ng-container>
+              
+                <!-- Start Date Column -->
+                <ng-container matColumnDef="startDate">
+                  <th mat-header-cell *matHeaderCellDef> Start Date </th>
+                  <td mat-cell *matCellDef="let TasksDetail"> {{TasksDetail.startDate }} </td>
+                </ng-container>
+        
+                <!-- End Date Column -->
+                <ng-container matColumnDef="endDate">
+                  <th mat-header-cell *matHeaderCellDef> End Date </th>
+                  <td mat-cell *matCellDef="let TasksDetail"> {{TasksDetail.endDate}} </td>
+                </ng-container>
+                
+                <!-- Button Column -->
+                <!-- <ng-container matColumnDef="endDate">
+                    <th mat-header-cell *matHeaderCellDef> Edit & Delete Task </th>
+                    <td mat-cell *matCellDef="let TasksDetail"><button (click)="edit(item)">Edit {{TasksDetail.edit}}</button>
+                      <button (click)="delete1(item)"> Delete {{TasksDetail.Delete}}</button></td>
+                  </ng-container> -->
+              
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              </table>              
+        </div>
+    </div>
+</div>
+

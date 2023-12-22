@@ -1,0 +1,65 @@
+/* .EmpCard{
+    border: 1px solid rgb(60, 60, 61);
+    border-radius: 10px;
+    padding: 7px 7px;
+    background-color: #ceeefe;
+    box-shadow: 1px 1px 7px #37454d;
+} */
+/* h3{
+    margin: 10px;
+    padding-left: 20px;
+} */
+
+/* .EmpCard:hover{
+    width: 110%;
+} */
+
+.EmpCard {
+    border: 1px solid rgb(60, 60, 61);
+    border-radius: 10px;
+    padding: 7px 7px;
+    background-color: #ceeefe;
+    box-shadow: 1px 1px 7px #37454d;
+    transition: width 0.3s ease; /* Add transition for a smooth effect */
+}
+
+.EmpCard:hover {
+    width: 110%;
+    transform: translateX(-5%);
+    /* Adjust the translateX value based on your preference */
+}
+
+table{
+    border: 1px thin rgb(27, 27, 27);
+    background-color: #ceeefe;
+    
+}
+
+.mat-table{
+    border: 1px thin rgb(27, 27, 27);
+}
+
+.border{
+    border: 1px thin rgb(27, 27, 27);
+}
+
+.mat-column-taskDisc {
+    font-size: 1.1rem;
+}
+
+.mat-column-taskId  {
+    font-size: 1.1rem;
+}
+
+.mat-column-taskStatus {
+    font-size: 1.1rem;
+}
+
+.mat-column-startDate{
+    font-size: 1.1rem;
+}
+.mat-column-endDate{
+    font-size: 1.1rem;
+}
+
+
